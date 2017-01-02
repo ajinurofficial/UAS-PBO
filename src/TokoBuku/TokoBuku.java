@@ -34,6 +34,10 @@ public class TokoBuku {
         this.terbitan = terbitan;
     }
 
+    TokoBuku() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getId() {
         return id;
     }
@@ -113,6 +117,6 @@ public class TokoBuku {
     public void setTerbitan(String terbitan) {
         this.terbitan = terbitan;
     }
-    
+
     
 }
