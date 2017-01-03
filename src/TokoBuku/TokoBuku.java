@@ -117,6 +117,7 @@ public class TokoBuku {
     public void setTerbitan(String terbitan) {
         this.terbitan = terbitan;
     }
+    
 
     
 }
